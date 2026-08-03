@@ -1,0 +1,1 @@
+All component styles are directly in component pages, global style is in global.css and this folder is intended for those scripts only that will be reused in various locations or are too complex to be included in the main component page
