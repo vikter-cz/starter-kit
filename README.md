@@ -47,15 +47,26 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 # GitHub commands
 
 ## To create a new repository on the command line
+
 echo "# sample" >> README.md
+
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git branch -M main
+
 git remote add origin https://github.com/victorsson78/sample.git
+
 git push -u origin main
 
 ## To push an existing repository from the command line
+
 git remote add origin https://github.com/victorsson78/sample.git
+
 git branch -M main
+
 git push -u origin main
+
