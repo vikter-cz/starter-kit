@@ -1,0 +1,36 @@
+---
+// Global imports – page layout + all components
+
+import Layout from '../layouts/base-layout.astro';
+
+import Hero from '../components/hero1-free.astro';
+import Navigation from '../components/navigation1-free.astro';
+
+import Services from '../components/services1-free.astro';
+import FAQ from '../components/faq1-free.astro';
+
+import Footer from '../components/footer1-free.astro';
+
+---
+
+
+<Layout>
+
+	<Fragment slot="title">
+	PAGE TITLE
+	</Fragment>
+
+	<Navigation />
+	<Hero />
+
+	<main>
+
+	<Services />
+	<FAQ />
+
+	</main>
+
+	<Footer />
+
+
+</Layout>
